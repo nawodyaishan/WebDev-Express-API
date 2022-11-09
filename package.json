@@ -1,0 +1,23 @@
+{
+  "name": "webdev-express-api",
+  "version": "1.0.0",
+  "description": "Simple Application Programming Interface using Node.Js, Express.Js, and TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nawodyaishan/WebDev-Express-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nawodyaishan/WebDev-Express-API/issues"
+  },
+  "homepage": "https://github.com/nawodyaishan/WebDev-Express-API#readme",
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^4.8.4"
+  }
+}
