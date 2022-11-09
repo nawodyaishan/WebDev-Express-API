@@ -4,7 +4,8 @@
   "description": "Simple Application Programming Interface using Node.Js, Express.Js, and TypeScript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -16,8 +17,13 @@
     "url": "https://github.com/nawodyaishan/WebDev-Express-API/issues"
   },
   "homepage": "https://github.com/nawodyaishan/WebDev-Express-API#readme",
-  "dependencies": {
-    "tsc": "^2.0.4",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }
